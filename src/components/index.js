@@ -1,7 +1,13 @@
-import StickyStack from './StickyStack';
+import Sticky, { StickyStackContainer, StickyStackItem } from './StickyStack';
 
-export const exported = {
-    ...StickyStack
-};
+export {
+    Sticky,
+    StickyStackContainer,
+    StickyStackItem
+}
 
-export default exported
+export default {
+    Sticky,
+    StickyStackContainer,
+    StickyStackItem
+}
