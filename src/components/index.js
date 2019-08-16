@@ -6,8 +6,5 @@ export {
     StickyStackItem
 }
 
-export default {
-    Sticky,
-    StickyStackContainer,
-    StickyStackItem
-}
+import * as self from './index';
+export default self;
